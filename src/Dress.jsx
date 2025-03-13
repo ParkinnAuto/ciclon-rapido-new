@@ -28,7 +28,7 @@ function Dress() {
       <Menu />
       <div className="dress-cover-container">
         <img
-          src="src/assets/pictures/dressingOverlay.jpg"
+          src="/pictures/dressingOverlay.jpg"
           alt="Dressing Design Overlay"
           className="dress-background-image"
         />

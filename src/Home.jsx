@@ -7,12 +7,12 @@ function Home() {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const images = [
-    "src/assets/pictures/image2.jpg",
-    "src/assets/pictures/image3.jpg",
-    "src/assets/pictures/image4.jpg",
-    "src/assets/pictures/image5.jpg",
-    "src/assets/pictures/image6.jpg",
-    "src/assets/carDesign/carDesign2.webp",
+    "/pictures/image2.jpg",
+    "/pictures/image3.jpg",
+    "/pictures/image4.jpg",
+    "/pictures/image5.jpg",
+    "/pictures/image6.jpg",
+    "/carDesign/carDesign2.webp",
   ];
 
   // Normal function to handle image click
@@ -32,7 +32,7 @@ function Home() {
       {/* HOME VIDEO, TEXT CENTER */}
       <div className="home-cover-container">
       {/*}  <video autoPlay loop muted>
-          <source src="src/assets/pictures/194ee0157ff38-master_playlist.mp4" />
+          <source src="/pictures/194ee0157ff38-master_playlist.mp4" />
         </video>*/}
         <div className="home-overlay">
           <h1 className="display-3">
@@ -109,7 +109,7 @@ function Home() {
       {/* OUR SPONSOR PICTURE */}
       <div className="home-ourSponsor">
         <img
-          src="src/assets/pictures/sponsor porsche.jpg"
+          src="/pictures/sponsor porsche.jpg"
           alt="sponsor"
           className="home-cover-image1"
         />

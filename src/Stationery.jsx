@@ -9,7 +9,7 @@ function Stationery() {
 
   const images = [
     {
-      src: "src/assets/stationery/staionery1.jpg",
+      src: "/stationery/staionery1.jpg",
       description: "Ciclón Rápido Inthanon fountain pen. ✒️",
     },
   ];
@@ -31,7 +31,7 @@ function Stationery() {
       <Menu />
       <div className="stationery-cover-container">
         <img
-          src="src/assets/pictures/stationeryOverlay.jpg"
+          src="/pictures/stationeryOverlay.jpg"
           alt="Stationery Design Overlay"
           className="stationery-background-image"
         />

@@ -26,7 +26,7 @@ function Archievement() {
       <main>
         <div className="achievements-cover-container">
           <img
-            src="src/assets/pictures/home image1.jpg"
+            src="/pictures/home image1.jpg"
             alt="Achievement First Image"
             className="achievements-first-pic"
           />

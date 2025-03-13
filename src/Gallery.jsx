@@ -7,21 +7,21 @@ function Gallery() {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const images = [
-    "src/assets/pictures/image2.jpg",
-    "src/assets/pictures/image3.jpg",
-    "src/assets/pictures/image4.jpg",
-    "src/assets/pictures/image5.jpg",
-    "src/assets/pictures/image6.jpg",
-    "src/assets/gallery/gallery10.webp",
-    "src/assets/gallery/gallery1.jpg",
-    "src/assets/gallery/gallery2.jpg",
-    "src/assets/gallery/gallery3.jpg",
-    "src/assets/gallery/gallery4.jpg",
-    "src/assets/gallery/gallery5.jpg",
-    "src/assets/gallery/gallery6.jpg",
-    "src/assets/gallery/gallery7.jpg",
-    "src/assets/gallery/gallery8.jpg",
-    "src/assets/gallery/gallery9.jpg",
+    "/pictures/image2.jpg",
+    "/pictures/image3.jpg",
+    "/pictures/image4.jpg",
+    "/pictures/image5.jpg",
+    "/pictures/image6.jpg",
+    "/gallery/gallery10.webp",
+    "/gallery/gallery1.jpg",
+    "/gallery/gallery2.jpg",
+    "/gallery/gallery3.jpg",
+    "/gallery/gallery4.jpg",
+    "/gallery/gallery5.jpg",
+    "/gallery/gallery6.jpg",
+    "/gallery/gallery7.jpg",
+    "/gallery/gallery8.jpg",
+    "/gallery/gallery9.jpg",
   ];
 
   // Function to handle image click

@@ -9,30 +9,30 @@ function CarDesign() {
 
   const images = [
     {
-      src: "src/assets/carDesign/carDesign1.jpg",
+      src: "/carDesign/carDesign1.jpg",
       description:
         "We’re thrilled to unveil our latest masterpiece at Ciclón Rápido—the exclusive ”Vin-It“ edition!",
     },
     {
-      src: "src/assets/carDesign/carDesign2.webp",
+      src: "/carDesign/carDesign2.webp",
       description:
         "Rapido V1 Fun Fact: Before we settled on our livery, this used to be the livery of our 911 RSR!",
     },
     {
-      src: "src/assets/carDesign/carDesign3.jpg",
+      src: "/carDesign/carDesign3.jpg",
       description: "New rims.",
     },
     {
-      src: "src/assets/carDesign/carDesign4.jpg",
+      src: "/carDesign/carDesign4.jpg",
       description: "An initial idea of our racing helmet.",
     },
     {
-      src: "src/assets/carDesign/carDesign5.jpg",
+      src: "/carDesign/carDesign5.jpg",
       description:
         "Ciclón Rápido Sirius: The imagination starts from the tip of the pencil, right?🖊 (Part 1)",
     },
     {
-      src: "src/assets/carDesign/carDesign6.jpg",
+      src: "/carDesign/carDesign6.jpg",
       description: "Ciclón Rápido Sirius (Part 2)",
     },
   ];
@@ -54,7 +54,7 @@ function CarDesign() {
       <Menu />
       <div className="car-design-cover-container">
         <img
-          src="src/assets/pictures/carDesignOverlay.webp"
+          src="/pictures/carDesignOverlay.webp"
           alt="Car Design Overlay"
           className="car-design-background-image"
         />
