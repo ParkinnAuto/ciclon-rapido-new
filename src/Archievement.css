@@ -1,0 +1,71 @@
+/* Achievements specific styles */
+.achievements-cover-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  overflow: hidden;
+}
+
+.achievements-first-pic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+  filter: brightness(50%); /* Fades the image down */
+}
+
+.achievements-overlay1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the text */
+  color: white;
+  text-align: center;
+  z-index: 1; /* Ensure text is above the image */
+  transition: 1s;
+}
+
+.achievements-album {
+  background-color: #ffffff;
+}
+
+.achievements-card {
+  overflow: hidden; /* Prevents overflow if image is too large */
+}
+
+.achievements-card-img-top {
+  width: 100%; /* Full width */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Cover the space without distortion */
+  transition: transform 0.3s; /* Smooth scaling on hover */
+}
+
+.achievements-card-img-top:hover {
+  transform: scale(1.1); /* Scale the image on hover */
+}
+
+.achievements-overlayExamples {
+  position: fixed; /* Use fixed positioning for full-screen overlay */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8); 
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure it's above other content */
+  transition: transform 0.5s ease;
+}
+
+.achievements-selected-image {
+  max-width: 90%; 
+  max-height: 90%; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Optional shadow for effect */
+}
+
+.achievements-image-description {
+  color: white; /* Description color */
+  margin-top: 10px; /* Space between image and description */
+  text-align: center; /* Center the description */
+}

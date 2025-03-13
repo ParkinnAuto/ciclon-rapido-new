@@ -1,0 +1,19 @@
+.badge {
+    cursor:pointer;
+}
+
+.driverImage{
+    transition: 2s;
+}
+
+.driverImage:hover{
+
+    transform: scale(1.05);
+    
+}
+
+.col-lg-6 {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}

@@ -1,0 +1,47 @@
+.contactus-section {
+    background-color: #ffffff;
+  }
+  
+  .contactus-title {
+    color: #343a40;
+    font-weight: bold; 
+  }
+  
+  .contactus-subtitle {
+    color: #6c757d;
+  }
+  
+  .contactus-icon-square {
+    width: 50px; 
+    height: 50px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s; 
+  }
+  
+  .contactus-icon-square:hover {
+    background-color: #adb5bd;
+  }
+  
+  .contactus-icon-title {
+    margin-bottom: 0.5rem; 
+    color: #495057;
+  }
+  
+  .contactus-icon-text {
+    color: #6c757d;
+  }
+  
+  .contactus-icon-link {
+    color: #007bff; 
+    text-decoration: none;
+  }
+  
+  .contactus-icon-link:hover {
+    text-decoration:underline; 
+  }
+  
+  #contactus-icons {
+    border-top: 2px solid #e9ecef;
+    padding-top: 20px; 
+  }

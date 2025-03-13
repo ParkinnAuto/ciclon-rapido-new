@@ -1,0 +1,53 @@
+/* ourPartner.css */
+
+.our-partners-section {
+  margin: 3rem 0;
+  text-align: center;
+  padding: 4rem 2rem; /* Spacious padding */
+  background-color: #ffffff; /* Clean white background */
+}
+
+.our-partners-title {
+  font-size: 2.5rem; /* Large title size */
+  margin-bottom: 1rem;
+  color: #333; /* Darker color for contrast */
+  font-weight: 700; /* Bold font for emphasis */
+  text-transform: uppercase; /* Uppercase for a strong presence */
+  letter-spacing: 1px; /* Slight letter spacing for elegance */
+}
+
+.our-partners-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Four boxes per row */
+  gap: 20px; /* Space between boxes */
+}
+
+.our-partners-box {
+  overflow: hidden; /* Prevent overflow */
+  border-radius: 10px; /* Rounded corners for boxes */
+  transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.our-partners-box:hover {
+  transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+.our-partners-image {
+  width: 100%; /* Make the image fill the box */
+  height: 240px; /* Fixed height for uniformity */
+  object-fit: cover; /* Ensure the image covers the area without distortion */
+  border-radius: 10px; /* Match the box corners */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .our-partners-grid {
+    grid-template-columns: repeat(2, 1fr); /* Two boxes per row on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .our-partners-grid {
+    grid-template-columns: 1fr; /* One box per row on extra small screens */
+  }
+}

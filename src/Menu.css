@@ -1,0 +1,38 @@
+.nav-item {
+    position: relative; /* To position submenus */
+}
+
+.submenu {
+    display: block; /* Keep display block for positioning */
+    opacity: 0; /* Start with opacity 0 */
+    visibility: hidden; /* Start as hidden */
+    position: absolute;
+    background-color: #343a40;
+    padding: 0;
+    margin: 0;
+    list-style-type: none; /* Remove bullet points */
+    z-index: 1000; /* Ensure it appears above other elements */
+    transition: opacity 0.7s ease, visibility 0.3s ease;
+}
+
+.nav-item:hover .submenu {
+    opacity: 1; /* Show submenu */
+    visibility: visible; /* Make it visible */
+}
+
+.submenu-link {
+    display: block; /* Ensure links take up full width */
+    padding: 10px;
+    color: white;
+    text-decoration: none; /* Remove underline */
+}
+
+.submenu-link:hover {
+    background-color: #495057; 
+}
+
+#menu-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+}

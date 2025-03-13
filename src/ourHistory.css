@@ -1,0 +1,63 @@
+.ourHistory-cover-container {
+    position: relative; /* Position relative for absolute positioning of overlay */
+    width: 100%; /* Full width */
+    height: 100vh; /* Set height for the cover */
+    overflow: hidden; /* Hide any overflow */
+}
+
+.ourHistory-cover-container img {
+    width: 100%; /* Make the image responsive */
+    height: 100%; /* Fill the container */
+    object-fit: cover; /* Maintain aspect ratio and cover the area */
+    filter: brightness(30%); /* Reduce brightness to 50% */
+}
+
+.ourHistory-overlay {
+    position: absolute; /* Position overlay absolutely */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust to truly center */
+    color: white; /* Text color */
+    text-align: center; /* Center text */
+    padding: 20px; /* Padding around the text */
+}
+
+.ourHistory-container {
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center children horizontally */
+    align-items: center; /* Center children vertically */
+    text-align: center; /* Center text within the container */
+    margin: 0 auto; /* Center the container itself */
+}
+
+.ourHistory-row {
+    width: 100%; /* Full width for the row */
+}
+
+.ourHistory-foundersImage {
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center image horizontally */
+}
+
+.ourHistory-foundersImage img {
+    transition: transform 2s ease; /* Smooth transition for scaling */
+}
+
+.ourHistory-foundersImage img:hover {
+    transform: scale(1.1); /* Scale image on hover */
+}
+
+.ourHistory-title {
+    margin-bottom: 1rem; /* Space below the title */
+}
+
+.ourHistory-history-lead {
+    margin: 1rem 0; /* Space around the paragraph */
+    text-align: justify; /* Justify text within the paragraph */
+}
+
+@media (max-width: 768px) {
+    .ourHistory-title {
+        font-size: 2.5rem; /* Adjust font size for smaller screens */
+    }
+}
