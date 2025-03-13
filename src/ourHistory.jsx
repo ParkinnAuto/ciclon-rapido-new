@@ -10,7 +10,7 @@ function OurHistory() {
       {/* COVER PART */}
       <div className="ourHistory-cover-container">
         <img
-          src="public/ourHistory/ourHistoryCover.jpg"
+          src="src/assets/ourHistory/ourHistoryCover.jpg"
           alt="Our History Cover"
         />
         <div className="ourHistory-overlay">
@@ -24,7 +24,7 @@ function OurHistory() {
           <hr></hr>
           <div className="ourHistory-col col-10 col-sm-8 col-lg-6 ourHistory-foundersImage">
             <img
-              src="public/ourHistory/ourHistory1.jpg"
+              src="src/assets/ourHistory/ourHistory1.jpg"
               className="d-block mx-lg-auto img-fluid"
               alt="Founders Image"
               width="700"
@@ -62,7 +62,7 @@ function OurHistory() {
         <div className="ourHistory-row row align-items-center g-5 py-5">
           <div className="ourHistory-col col-lg-6 ourHistory-foundersImage">
             <img
-              src="public/ourHistory/ourHistory2.png"
+              src="src/assets/ourHistory/ourHistory2.png"
               className="d-block mx-lg-auto img-fluid"
               alt="Logo"
               width="700"

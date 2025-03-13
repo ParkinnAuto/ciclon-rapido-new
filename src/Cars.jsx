@@ -13,7 +13,7 @@ function Cars() {
           {/* flex-lg-row-reverse ทำให้รูปภาพที่ต้องซ้ายสลับไปอยู่ขวา */}
           <div class="col-10 col-sm-8 col-lg-6 driverImage">
             <img
-              src="public/cars/Porsche911.jpg"
+              src="src/assets/cars/Porsche911.jpg"
               class="d-block mx-lg-auto img-fluid"
               alt="Prosche911"
               width="700"
@@ -55,7 +55,7 @@ function Cars() {
         <div class="row align-items-center g-5 py-5">
           <div class="col-lg-6 driverImage">
             <img
-              src="public/cars/Ferrari458.jpg"
+              src="src/assets/cars/Ferrari458.jpg"
               class="d-block mx-lg-auto img-fluid"
               alt="Ferrari458"
               width="700"
@@ -97,7 +97,7 @@ function Cars() {
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6 driverImage">
             <img
-              src="public/cars/SuperFormula.jpg"
+              src="src/assets/cars/SuperFormula.jpg"
               class="d-block mx-lg-auto img-fluid"
               alt="SuperFormula"
               width="700"

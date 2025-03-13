@@ -6,14 +6,14 @@ import Footer from "./Footer";
 function OurPartners() {
   // Array of partner images
   const partnerImages = [
-    "public/ourPartners/ourPartner1.png",
-    "public/ourPartners/ourPartner2.png",
-    "public/ourPartners/ourPartner3.png",
-    "public/ourPartners/ourPartner4.png",
-    "public/ourPartners/ourPartner5.jpg",
-    "public/ourPartners/ourPartner6.png",
-    "public/ourPartners/ourPartner7.png",
-    "public/ourPartners/ourPartner8.png",
+    "src/assets/ourPartners/ourPartner1.png",
+    "src/assets/ourPartners/ourPartner2.png",
+    "src/assets/ourPartners/ourPartner3.png",
+    "src/assets/ourPartners/ourPartner4.png",
+    "src/assets/ourPartners/ourPartner5.jpg",
+    "src/assets/ourPartners/ourPartner6.png",
+    "src/assets/ourPartners/ourPartner7.png",
+    "src/assets/ourPartners/ourPartner8.png",
   ];
 
   return (

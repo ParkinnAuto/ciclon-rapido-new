@@ -14,7 +14,7 @@ function Drivers() {
           {/* flex-lg-row-reverse ทำให้รูปภาพที่ต้องซ้ายสลับไปอยู่ขวา */}
           <div class="col-10 col-sm-8 col-lg-6 driverImage">
             <img
-              src="public/pictures/mainDriver1.jpg"
+              src="src/assets/pictures/mainDriver1.jpg"
               class="d-block mx-lg-auto img-fluid"
               alt="mainDriver1"
               width="700"
@@ -47,7 +47,7 @@ function Drivers() {
         <div class="row align-items-center g-5 py-5">
           <div class="col-lg-6 driverImage">
             <img
-              src="public/pictures/mainDriver2.jpg"
+              src="src/assets/pictures/mainDriver2.jpg"
               class="d-block mx-lg-auto img-fluid"
               alt="mainDriver2"
               width="700"
@@ -77,7 +77,7 @@ function Drivers() {
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6 driverImage">
             <img
-              src="public/pictures/reserveDriver1.jpg"
+              src="src/assets/pictures/reserveDriver1.jpg"
               class="d-block mx-lg-auto img-fluid"
               alt="reserveDriver1"
               width="700"
